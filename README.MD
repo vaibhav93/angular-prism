@@ -11,9 +11,6 @@ $ npm install angular-prism --save
 ## Usage
 
 
-```bash
-$ npm install angular-prism
-```
 configure your System.config
 ```javascript
 System.config({
