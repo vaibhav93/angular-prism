@@ -70,7 +70,7 @@ import { PrismComponent } from 'angular-prism';
 })
 export class AppModule { }
 ```
-your module which displays code block
+and in your module which displays code block
 ```typescript
 @Component({
   selector: 'my-app',
@@ -92,13 +92,6 @@ export class App {
 
     }
 }
-```
-```xml
-<!-- You can now use prism-block component -->
-<h1>
-  {{title}}
-</h1>
-<prism-block [code]="cssCode" [language]="'typescript'"></prism-block>
 ```
 
 ## Development
