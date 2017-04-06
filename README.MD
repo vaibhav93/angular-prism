@@ -1,7 +1,7 @@
 # angular-prism
 
 ## Demo
-[Plunkr](https://www.google.com)https://plnkr.co/edit/nWMaZAgZ8nGkYcL3zF9O?p=preview)
+[Plunkr](https://plnkr.co/edit/nWMaZAgZ8nGkYcL3zF9O?p=preview)
 
 ## Installation
 
