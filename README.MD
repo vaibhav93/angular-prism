@@ -1,5 +1,8 @@
 # angular-prism
 
+## Demo
+[Plunkr](https://www.google.com)https://plnkr.co/edit/nWMaZAgZ8nGkYcL3zF9O?p=preview)
+
 ## Installation
 
 To install this library, run:
@@ -68,7 +71,7 @@ export class AppModule { }
 
 
 ```xml
-<!-- You can now use your library component in app.component.html -->
+<!-- You can now use prism-block component -->
 <h1>
   {{title}}
 </h1>
