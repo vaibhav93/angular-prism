@@ -80,12 +80,10 @@ and in your module which displays code block
     </div>
   `,
 })
-export class App {
-  code: string;
+export class MyComponent {
   cssCode : string;
 
   constructor() {
-    this.name = `Angular! v${VERSION.full}`;
     this.cssCode = `p {
                       color:red;
                     }`;
