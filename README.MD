@@ -14,7 +14,32 @@ $ npm install angular-prism --save
 ```bash
 $ npm install angular-prism
 ```
-
+configure your System.config
+```javascript
+System.config({
+  defaultJSExtensions: true,
+  map: {
+    "angular2": "node_modules/angular2",
+    "rxjs": "node_modules/rxjs",
+    ...
+    "prismjs": "node_modules/prismjs"
+    "angular-prism" : "node_modules/angular-prism/dist"
+  },
+  packages: {        
+    'app': {
+      main : './main.ts',
+      defaultJSExtensions : 'ts'
+    },
+    'prism' : {
+      defaultExtension : 'js'
+    },
+    'angular-prism' : {
+      main : './angular-prism.js',
+      defaultExtension : 'js'
+    }
+  }
+});
+```
 and then from your Angular `AppModule`:
 
 ```typescript
@@ -23,7 +48,12 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 
-// Import your library
+/* Import prism core */
+import 'prism/prism';
+
+/* Import the language you need to highlight */
+import 'prism/components/prism-typescript';
+
 import { PrismComponent } from 'angular-prism';
 
 @NgModule({
