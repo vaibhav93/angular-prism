@@ -10,8 +10,7 @@ $ npm install angular-prism --save
 
 ## Usage
 
-
-configure your System.config
+Configure your System.config
 ```javascript
 System.config({
   defaultJSExtensions: true,
