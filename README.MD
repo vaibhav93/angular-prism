@@ -95,7 +95,7 @@ export class App {
 <h1>
   {{title}}
 </h1>
-<prism-block [code]="code" [language]="'typescript'"></prism-block>
+<prism-block [code]="cssCode" [language]="'typescript'"></prism-block>
 ```
 
 ## Development
