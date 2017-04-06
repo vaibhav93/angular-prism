@@ -1,6 +1,6 @@
 import { Component, Input, Renderer2, ElementRef, AfterViewInit } from '@angular/core';
 declare var Prism: any;
-import 'prismjs/prism';
+
 @Component({
   selector: 'prism-block',
   template: ``,
