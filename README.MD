@@ -71,6 +71,28 @@ export class AppModule { }
 
 ```xml
 <!-- You can now use prism-block component -->
+```typescript
+@Component({
+  selector: 'my-app',
+  template: `
+    <div>
+      <prism-block [code]="cssCode" [language]="'css'"></prism-block>
+    </div>
+  `,
+})
+export class App {
+  code: string;
+  cssCode : string;
+
+  constructor() {
+    this.name = `Angular! v${VERSION.full}`;
+    this.cssCode = `p {
+                      color:red;
+                    }`;
+
+    }
+}
+```
 <h1>
   {{title}}
 </h1>
