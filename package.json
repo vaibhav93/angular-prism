@@ -1,6 +1,6 @@
 {
     "name": "angular-prism",
-    "version": "0.1.16",
+    "version": "0.1.17",
     "scripts": {
         "build": "ngc -p tsconfig.json",
         "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",

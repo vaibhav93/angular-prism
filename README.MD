@@ -1,6 +1,6 @@
 # angular-prism
 
-## [ View Demo ](https://plnkr.co/edit/nWMaZAgZ8nGkYcL3zF9O?p=preview)
+## [ View Demo ](https://plnkr.co/edit/5z6Keq?p=preview)
 
 ## Installation
 
