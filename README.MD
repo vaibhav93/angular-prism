@@ -70,7 +70,7 @@ import { PrismComponent } from 'angular-prism';
 })
 export class AppModule { }
 ```
-and in your module which displays code block
+and in your component which displays code block
 ```typescript
 @Component({
   selector: 'my-app',
