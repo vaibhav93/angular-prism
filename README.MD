@@ -31,7 +31,7 @@ System.config({
       main : './main.ts',
       defaultJSExtensions : 'ts'
     },
-    'prism' : {
+    'prismjs' : {
       defaultExtension : 'js'
     },
     'angular-prism' : {
@@ -50,10 +50,10 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 /* Import prism core */
-import 'prism/prism';
+import 'prismjs/prism';
 
 /* Import the language you need to highlight */
-import 'prism/components/prism-typescript';
+import 'prismjs/components/prism-typescript';
 
 import { PrismComponent } from 'angular-prism';
 
