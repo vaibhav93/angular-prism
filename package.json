@@ -1,6 +1,7 @@
 {
     "name": "angular-prism",
-    "version": "0.1.18",
+    "version": "0.1.19,
+    "description": "Minimal PrismJS component for code highlighting in Angular 2/4",
     "scripts": {
         "build": "ngc -p tsconfig.json",
         "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
