@@ -1,6 +1,6 @@
 {
     "name": "angular-prism",
-    "version": "0.1.19",
+    "version": "0.1.20",
     "description": "Minimal PrismJS component for code highlighting in Angular 2/4",
     "scripts": {
         "build": "ngc -p tsconfig.json",
@@ -24,7 +24,7 @@
     "bugs": {
         "url": "https://github.com/vaibhav93/angular-prism.git/issues"
     },
-    "main": "./dist/index.js",
+    "main": "./dist/angular-prism",
     "dependencies": {
         "prismjs": "^1.6.0"
     },
