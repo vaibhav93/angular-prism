@@ -1,4 +1,9 @@
-import { Renderer2, ElementRef, AfterViewInit } from '@angular/core';
+import { Directive, Renderer2, ElementRef, AfterViewInit } from '@angular/core';
+
+@Directive({
+	selector: 'arbitrary'	// Can be named anything you want
+})
+
 export declare class PrismComponent implements AfterViewInit {
     private _renderer;
     private _el;
